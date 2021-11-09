@@ -1,0 +1,2 @@
+# react_ecommerce_frontend_uiux
+Ecommerce UI template (only UI template) for frontend to easy start new react project, using React, ReactJs, NodeJs, ReactRedux, ReduxThunk, axios, fetch, MERAN Stack, MVVM, React Class Component, React Functional Component. Features, User Registration, Login, Forgot Password, Reset Password, Change Profile Info, Change Profile Picture, Product List, Popular Product, Recommended product, Add to cart, Checkout, Add to Favorite, Product Posting and listing, order tracking etc
