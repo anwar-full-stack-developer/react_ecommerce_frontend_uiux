@@ -1,0 +1,19 @@
+import React from "react";
+import { connect, useDispatch, useSelector } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as actions from '../actions/productActions'
+class HomePage extends React.Component {
+  constructor(props) {
+    super(props);
+    const { dispatch } = props;
+    // const productList = useSelector((state) => state.productList);
+    const productList = this.props.productList;
+    this.boundedActions = bindActionCreators(actions, dispatch);
+  }
+
+  render() {
+    return <h1>Home</h1>;
+  }
+}
+export default connect()(HomePage);
+// export default HomePage;
